@@ -17,16 +17,7 @@ export const globalStyles = StyleSheet.create({
         fontSize: 30,
         marginLeft: 20,
         fontWeight: 'bold',
-    },
-    logo: {
-        width: 100,
-        height: 100,
-        resizeMode: 'contain',
-        marginLeft: 20,
-    },
-    gridView: {
-        marginTop: 10,
-        flex: 1,
+        marginTop: 20,
     },
     location: {
         marginTop: 30,
@@ -39,5 +30,24 @@ export const globalStyles = StyleSheet.create({
         fontSize: 16,
         marginLeft: 39,
         marginBottom: 10,
+    },
+    container: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        paddingHorizontal: 20,
+        width: '100%',
+    },
+    itemcontainer: {
+        alignItems: 'center',
+        borderWidth: 1,
+        width: 80,
+    },
+    containerImage: {
+        width: 58,
+        height: 58,
+    },
+    label: {
+        fontSize: 12,
+        fontWeight: 600,
     }
 });
